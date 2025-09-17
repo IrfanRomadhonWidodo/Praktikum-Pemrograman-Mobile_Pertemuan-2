@@ -9,4 +9,4 @@ Shift : Shift D (Lama), Shift F (Baru)
 ![Screenshot Aplikasi](Screenshot_2025-09-10-14-33-41-97.jpg)
 
 ## Screenshot Demo Aplikasi - Pertemuan 3
-![Demo Aplikasi](DemoAplikasi_IrfanRomadhon.mp4)
+![Demo Aplikasi](DemoAplikasi_IrfanRomadhon.gif)
