@@ -1,4 +1,45 @@
-package com.unsoed.informatikamobile.ui.adapter
+package com.unsoed.informatikamobile.adapter
 
-class BookAdapter {
+import android.view.LayoutInflater
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView
+import com.unsoed.informatikamobile.data.model.BookDoc
+import com.unsoed.informatikamobile.databinding.ListBukuBinding
+
+class BookAdapter(private var books: List<BookDoc>) :
+    RecyclerView.Adapter<BookAdapter.BookViewHolder>() {
+
+    inner class BookViewHolder(val binding: ListBukuBinding) :
+        RecyclerView.ViewHolder(binding.root)
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): BookViewHolder {
+        val binding = ListBukuBinding.inflate(
+            LayoutInflater.from(parent.context),
+            parent,
+            false
+        )
+        return BookViewHolder(binding)
+    }
+
+    override fun getItemCount(): Int = books.size
+
+    override fun onBindViewHolder(holder: BookViewHolder, position: Int) {
+        val book = books[position]
+
+        // set Title
+        holder.binding.tvTitle.text = book.title ?: "No Title"
+
+        // set Author (join karena bisa lebih dari 1)
+        holder.binding.tvAuthor.text =
+            book.authorName?.joinToString(separator = ", ") ?: "Unknown Author"
+
+        // set Tahun
+        holder.binding.tvYear.text =
+            book.firstPublishYear?.toString() ?: "-"
+    }
+
+    fun setData(newBooks: List<BookDoc>) {
+        books = newBooks
+        notifyDataSetChanged()
+    }
 }
