@@ -10,3 +10,7 @@ Shift : Shift D (Lama), Shift F (Baru)
 
 ## Demo Aplikasi - Pertemuan 3
 ![Demo Aplikasi](DemoAplikasi_IrfanRomadhon.gif)
+
+## Demo Aplikasi Part 2 - Pertemuan 4
+![Demo Aplikasi](DemoAplikasi2_IrfanRomadhon.gif)
+
