@@ -29,27 +29,33 @@
     </string>
     <string name="telepon">
     (0281) 6596700
-</string>
+    </string>
     <string name="email">
     teknik@unsoed.ac.id
-</string>
+    </string>
     <string name="himpunan">
     Himpunan Mahasiswa Informatika (HMIF UNSOED)
-</string>
+    </string>
     <string name="ig_himpunan">
     https://www.instagram.com/hmifunsoed
-</string>
+    </string>
     <string name="profil_lulusan">
+    Koleksi Buku
+    </string>
+    <string name="koleksi_buku">
     Profil Lulusan
-</string>
+    </string>
+
     <string name="desc_lulusan">
     Lulusan Program Studi Informatika Unsoed sebagian besar bekerja sebagai tenaga ahli di bidang
     perekayasaan perangkat lunak (Programer, Analis Sistem, Manajer Proyek, Database Administrator),
     Wirausahawan Informatika dan Dosen/Peneliti.
-</string>
+    </string>
     <string name="back">
         back
     </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>
