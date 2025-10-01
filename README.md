@@ -14,3 +14,6 @@ Shift : Shift D (Lama), Shift F (Baru)
 ## Demo Aplikasi Part 2 - Pertemuan 4
 ![Demo Aplikasi](DemoAplikasi2_IrfanRomadhon.gif)
 
+## Demo Aplikasi Part 3 - Pertemuan 5
+![Demo Aplikasi](DemoAplikasi3_IrfanRomadhon.gif)
+
